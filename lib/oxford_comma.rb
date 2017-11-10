@@ -9,9 +9,6 @@ def oxford_comma(array)
     return_string = array2.join(", ")
     last_item = "and + #{array[-1]}"
     return return_string + last_item
-  end
-
-
-
+    end
   end
 end
