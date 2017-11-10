@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length > 2
     array2 = []
     array2.push(array[0...-1])
-    array2.join(", ")
+    return_string = array2.join(", ")
     last_item = array[-1]
     
 
